@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* GLOBAL STYLES */
+/* GLOBAL STYLES */
+/* GLOBAL STYLES */
+body{
+  background-color: black;
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* NAVBAR STYLES */
+/* NAVBAR STYLES */
+/* NAVBAR STYLES */
+.navbar{
+  /* background-color: transparent; */
+  background-image: linear-gradient(to bottom right, rgba(121, 111, 111, 0.3), rgba(138, 138, 130, 0.3));
+}
+.logo-div{
+  margin-left: 5%;
+}
+.text_one{
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 50px;
+}
+.text_one:hover{
+  cursor: pointer;
+  color: #F7E57D;
+}
+.toggle-btn{
+  background-color: #F7E57D ;
+}
+.title-text{
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.connect-btn{
+  border: none;
+  border-radius: 100px;
+  height: 50px;
+  background: url("./media/rectangle.svg") no-repeat scroll 0 0 transparent;
+  margin-right: 5%;
+}
+
+/* HEADER STYLES */
+/* HEADER STYLES */
+/* HEADER STYLES */
+.header-wrap{
+  padding-bottom: 80px;
+}
+.header-inner{
+  padding-top: 170px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.bgVideo{
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+.horse-header{
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+}
+
+.header-text1{
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-top: -10px;
+}
+.header-text2{
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  margin-top: 50px;
+}
+.header-text3{
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+.video-tag{
+  z-index: -1;
+}
+
+/* TEAM STYLES */
+/* TEAM STYLES */
+/* TEAM STYLES */
+.team-wrapper{
+  background-color: black;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+.heading1{
+  color: white;
+  font-size: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.team-inner{
+  background-color:#F7E57D;
+}
+.team-member-div{
+  padding: 30px;
+}
+.card{
+  height: 300px;
+  width: 200px;
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+@media only screen and (max-width:600px){
+  .title-text{
+    display: none;
+  }
+  .nav-item-div{
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  
+  }
 }
