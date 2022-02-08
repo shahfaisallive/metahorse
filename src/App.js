@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Team from './components/Team';
+import Roadmap from './components/Roadmap';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Header />
       <Team />
+      <Roadmap />
     </div>
   );
 }

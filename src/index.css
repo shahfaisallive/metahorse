@@ -19,7 +19,7 @@ body{
 .text_one{
   color: #ffffff;
   font-size: 16px;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 .text_one:hover{
   cursor: pointer;
@@ -110,8 +110,24 @@ body{
   padding: 30px;
 }
 .card{
-  height: 300px;
-  width: 200px;
+  height: 270px;
+  width: 225px;
+  background-color: #C67500;
+  transform: skew(-6deg);
+  border-radius: 15px;
+}
+.text1{
+  font-size: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+.line{
+  width: 30%;
+}
+.btn1:hover{
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 /* MEDIA QUERIES */
