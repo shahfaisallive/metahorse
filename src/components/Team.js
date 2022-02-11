@@ -3,6 +3,11 @@ import { ReactComponent as PrevBtn } from '../media/prevbtn.svg'
 import { ReactComponent as NextBtn } from '../media/nextbtn.svg'
 import { ReactComponent as ActiveLine } from '../media/activeline.svg'
 import { ReactComponent as InactiveLine } from '../media/inactiveline.svg'
+import MetaSami from '../media/MetaSami.JPG'
+import MetaWin from '../media/MetaWin.JPG'
+import MetaJun from '../media/MetaJun.JPG'
+import MetaJoseph from '../media/MetaJoseph.JPG'
+import MetaJohn from '../media/MetaJohn.JPG'
 
 
 const Team = () => {
@@ -16,7 +21,7 @@ const Team = () => {
             <div className='container-fluid team-inner d-flex justify-content-center'>
                 <div className='container row d-flex '>
                     <div className='col-sm team-member-div justify-content-center'>
-                        <img src={'/images/MetaSami.jpg'} alt='metasami' className='memberImg' />
+                        <img src={MetaSami} alt='metasami' className='memberImg' />
                         <div className='row team-info-member justify-content-center'>
                             <p className='text2 '>MetaSami</p>
                             <p className='text3'>PRESIDENT & CO-FOUNDER</p>
@@ -24,7 +29,7 @@ const Team = () => {
                     </div>
 
                     <div className='col-sm  team-member-div justify-content-center'>
-                        <img src={'/images/MetaWin.jpg'} alt='metawin' className='memberImg' />
+                        <img src={MetaWin} alt='metawin' className='memberImg' />
 
                         <div className='row team-info-member justify-content-center'>
                             <p className='text2 '>MetaWin</p>
@@ -33,7 +38,7 @@ const Team = () => {
                     </div>
 
                     <div className='col-sm  team-member-div justify-content-center'>
-                        <img src={'/images/MetaJun.jpg'} alt='metajun' className='memberImg' />
+                        <img src={MetaJun} alt='metajun' className='memberImg' />
 
                         <div className='row team-info-member justify-content-center'>
                             <p className='text2 '>MetaJun</p>
@@ -42,7 +47,7 @@ const Team = () => {
                     </div>
 
                     <div className='col-sm  team-member-div justify-content-center'>
-                        <img src={'/images/MetaJoseph.jpg'} alt='metajoseph' className='memberImg' />
+                        <img src={MetaJoseph} alt='metajoseph' className='memberImg' />
 
                         <div className='row team-info-member justify-content-center'>
                             <p className='text2 '>MetaJoseph</p>
@@ -51,7 +56,7 @@ const Team = () => {
                     </div>
 
                     <div className='col-sm  team-member-div justify-content-center'>
-                        <img src={'/images/MetaJohn.jpg'} alt='MetaJohn' className='memberImg' />
+                        <img src={MetaJohn} alt='MetaJohn' className='memberImg' />
 
                         <div className='row team-info-member justify-content-center'>
                             <p className='text2 '>MetaJohn</p>
