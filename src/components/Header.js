@@ -7,7 +7,7 @@ import bgVideo from '../media/black.mp4';
 
 const Header = () => {
     return (
-        <div className='header-wrap container-fluid justify-content-center'>
+        <div className='header-wrap container-fluid justify-content-center' id='home'>
             <video className='videoTag bgVideo' autoPlay loop muted>
                 <source src={bgVideo} type='video/mp4' />
             </video>

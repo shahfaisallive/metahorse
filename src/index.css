@@ -110,8 +110,8 @@ body{
   padding: 30px;
 }
 .card{
-  height: 270px;
-  width: 225px;
+  height: 200px;
+  width: 160px;
   background-color: #C67500;
   transform: skew(-6deg);
   border-radius: 15px;
@@ -122,6 +122,15 @@ body{
   margin-bottom: auto;
   color: white;
 }
+.text2{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.text3{
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  margin-top: -15px;
+}
 .line{
   width: 30%;
 }
@@ -129,6 +138,87 @@ body{
   opacity: 0.7;
   cursor: pointer;
 }
+.memberImg{
+  height: 200px;
+  width: 160px;
+  transform: skew(-6deg);
+  border-radius: 10px;
+}
+
+/* ROADMAP STYLES */
+/* ROADMAP STYLES */
+/* ROADMAP STYLES */
+.roadmap-wrapper{
+  margin-top: -50px;
+  padding-bottom: 20px;
+}
+.rm-graph-div{
+  padding-top: 270px;
+  border-bottom: 1px ridge #F7E57D;
+  padding-bottom: 15px;
+}
+.circle{
+  width: 50px;
+}
+.curve{
+  width: 200px;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+.line1{
+  margin-left: 22px;
+  height: 120px;
+}
+.rm-text1{
+  font-size: 20px;
+  color: white;
+}
+.rm-text2{
+  font-size: 16px;
+  color: #F7E57D;
+  margin-top: -15px;
+}
+.rm-info ul li {
+  color: white;
+  font-size: 12px;
+}
+.q2{
+  margin-top: -60px;
+}
+.q3{
+  margin-top: -120px;
+}
+.q4{
+  margin-top: -180px;
+}
+.q5{
+  margin-top: -240px;
+}
+
+/* FOOTER STYLES */
+/* FOOTER STYLES */
+/* FOOTER STYLES */
+.footer{
+  background-color: black;
+}
+.ft-text1{
+  color: white;
+}
+.ft-text1:hover{
+  text-decoration: none;
+  color: #C67500;
+}
+.ft-text2{
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.ft-img{
+  width: 50px;
+}
+
+
+
 
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */

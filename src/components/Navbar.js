@@ -19,7 +19,7 @@ const Navbar = () => {
 
     }
     const navTeamHandler = () => {
-        const element = document.getElementById("ourteam");
+        const element = document.getElementById("team");
         element.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
     const navContactHandler = () => {

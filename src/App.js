@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Team from './components/Team';
 import Roadmap from './components/Roadmap';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Team />
       <Roadmap />
+      <Footer />
     </div>
   );
 }
