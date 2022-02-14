@@ -11,6 +11,7 @@ const Header = () => {
             <video className='videoTag bgVideo' autoPlay loop muted>
                 <source src={bgVideo} type='video/mp4' />
             </video>
+
             <div className=' row container header-inner'>
                 <div className='col-md-5 header-left'>
                     <div className='row'>

@@ -49,14 +49,14 @@ const Footer = () => {
                         <p className='ft-text2'>JOIN OUR COMMUNITY</p>
                     </div>
                     <div className='row d-flex'>
-                        <div className='col-sm-6 pl-5'>
+                        <div className='col-6 pl-5'>
                             <a target={'_blank'} rel="noreferrer" href='https://www.facebook.com/Metahorse-111578704762976'><img className='ft-img d-block mt-3' src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-facebook-social-media-justicon-flat-justicon.png" alt='fb' /></a>
                             <a target={'_blank'} rel="noreferrer" href='https://discord.gg/KjGqrcAGMg'><img className='ft-img d-block mt-3' src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-discord-social-media-justicon-flat-justicon.png" alt="dc" /></a>
                             <a target={'_blank'} rel="noreferrer" href='https://twitter.com/METAHORSEOFFIC1'><img className='ft-img d-block mt-3' src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-twitter-social-media-justicon-flat-justicon.png" alt="tw" /></a>
                             <a target={'_blank'} rel="noreferrer" href='https://www.instagram.com/metahorseofficial/'><img className='ft-img d-block mt-3' src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-instagram-social-media-justicon-flat-justicon.png" alt="ig" /></a>
                         </div>
 
-                        <div className='col-sm-6'>
+                        <div className='col-6'>
                             <a target={'_blank'} rel="noreferrer" href='https://t.me/MetaHorseOfficialTelegram'><img className='ft-img d-block mt-3' src="https://img.icons8.com/stickers/100/000000/telegram-app.png" alt="ig" /></a>
                             <a target={'_blank'} rel="noreferrer" href='https://www.youtube.com/channel/UCrAkghBFxNGpUWNl4Nmzy7Q'><img className='ft-img d-block mt-3' src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-youtube-social-media-justicon-flat-justicon.png" alt="ig" /></a>
                             <a target={'_blank'} rel="noreferrer" href='https://new.reddit.com/user/METAHORSE'><img className='ft-img d-block mt-3' src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-reddit-social-media-justicon-flat-justicon.png" alt="ig" /></a>

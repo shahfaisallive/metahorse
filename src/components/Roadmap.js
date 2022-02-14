@@ -7,12 +7,12 @@ import { ReactComponent as Line } from '../media/line.svg'
 
 const Roadmap = () => {
     return (
-        <div className='roadmap-wrapper container-fluid justify-content-center pl-0 pr-0' style={{ backgroundImage: `url(${BG})`, backgroundSize: '100%', backgroundRepeat: 'repeat-y' }} id="roadmap">
+        <div className='roadmap-wrapper container-fluid justify-content-center pl-0 pr-0' style={{ backgroundImage: `url(${BG})`, backgroundSize: '100%', backgroundRepeat: 'no-repeat' }} id="roadmap">
             {/* <div className='row container ml-auto mr-auto'>
                 <p className='heading1 mt-4'>Roadmap</p>
             </div> */}
 
-            <div className='container row justify-content-center mt-5 ml-auto mr-auto rm-graph-div'>
+            <div className='container rm-webview row justify-content-center mt-5 ml-auto mr-auto rm-graph-div'>
                 <div className='col q1'>
                     <div className='row d-flex justify-content-start'>
                         <Line className='line1' />
@@ -114,7 +114,92 @@ const Roadmap = () => {
                         <Circle className='circle' />
                     </div>
                 </div>
+            </div>
 
+
+            {/* MOBILE COMPONENT FOR ROADMAP */}
+            <div className='rm-mobview container row'>
+                <div className='col'>
+                    <div className='row'>
+                        <div className='col-2'>
+                            <Circle className='circle' />
+                        </div>
+                        <div className='col-10 pt-2 rm-info-mob'>
+                            <p className='rm-text1'>Q1 2022</p>
+                            <p className='rm-text2'>Milestone 1</p>
+
+                            <ul>
+                                <li>Team Formation - Jan 2022</li>
+                                <li>Social Media Launch - Feb 2022</li>
+                                <li>Gameplay Trailer - Feb 2022</li>
+                                <li>Website - Feb 2022</li>
+                                <li>Whitepaper - March 2022</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-2'>
+                            <Circle className='circle' />
+                        </div>
+                        <div className='col-10 pt-2 rm-info-mob'>
+                            <p className='rm-text1'>Q2 2022</p>
+                            <p className='rm-text2'>Milestone 2</p>
+
+                            <ul>
+                                <li>Pre Sales - April 2022</li>
+                                <li>Private Sales - April 2022</li>
+                                <li>Metamall museum showcase for Metahorse real horses - April 2022</li>
+                                <li>Token Generation Event - May 2022</li>
+                                <li>Initial DEX Listing - May 2022</li>
+                                <li>Coingecko Listing - May 2022</li>
+                                <li>CoinMarketCap Listing - May 2022</li>
+                                <li>NFT Sale - May 2022</li>
+                                <li>NFT Marketplace - May 2022</li>
+                                <li>CEX Listing - June 2022</li>
+                                <li>NFT Staking - June 2022</li>
+                                <li>NFT Fusion/Breeding - June 2022</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-2'>
+                            <Circle className='circle' />
+                        </div>
+                        <div className='col-10 pt-2 rm-info-mob'>
+                            <p className='rm-text1'>Q3 2022</p>
+                            <p className='rm-text2'>Milestone 3</p>
+                            <ul>
+                                <li>Gameplay Beta Testing - July 2022</li>
+                                <li>Gameplay Launch - August 2022</li>
+                                <li>Metahorse Stable Tour - September 2022</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-2'>
+                            <Circle className='circle' />
+                        </div>
+                        <div className='col-10 pt-2 rm-info-mob'>
+                            <p className='rm-text1'>Q4 2022</p>
+                            <p className='rm-text2'>Milestone 4</p>
+                            <ul>
+                                <li>Coming soon</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-2'>
+                            <Circle className='circle' />
+                        </div>
+                        <div className='col-10 pt-2 rm-info-mob'>
+                            <p className='rm-text1 mt-2'>Finish</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

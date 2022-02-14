@@ -11,7 +11,7 @@ body{
 /* NAVBAR STYLES */
 .navbar{
   /* background-color: transparent; */
-  background-image: linear-gradient(to bottom right, rgba(121, 111, 111, 0.3), rgba(138, 138, 130, 0.3));
+  background-image: linear-gradient(to bottom right, rgba(75, 70, 70, 0.3), rgba(110, 110, 105, 0.3));
 }
 .logo-div{
   margin-left: 5%;
@@ -96,6 +96,7 @@ body{
   background-color: black;
   padding-right: 0%;
   padding-left: 0%;
+  padding-bottom: 20px;
 }
 .heading1{
   color: white;
@@ -194,6 +195,9 @@ body{
 .q5{
   margin-top: -240px;
 }
+.rm-mobview{
+  display: none;
+}
 
 /* FOOTER STYLES */
 /* FOOTER STYLES */
@@ -227,10 +231,43 @@ body{
   .title-text{
     display: none;
   }
+  .bgVideo{
+    position: fixed;
+    z-index: -1;
+    width: 1500px;
+  }
+  .header-inner{
+    padding-top: 100px;
+  }
   .nav-item-div{
     justify-content: center !important;
     margin-left: auto !important;
     margin-right: auto !important;
-  
+  }
+  .connect-btn{
+    margin-bottom: 20px;
+  }
+  .rm-mobview{
+    display: block;
+    padding-top: 40px;
+  }
+  .rm-webview{
+    display: none;
+  }
+  .circle{
+    width: 40px;
+  }
+  .rm-info-mob ul li {
+    color: white;
+    font-size: 14px;
+    margin-left: -25px;
+  }
+
+  .footer{
+    margin-top: 40px;
+    border-top: 1px solid rgb(156, 152, 152)
+  }
+  .ft-text1{
+    font-size: 14px;
   }
 }
