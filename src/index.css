@@ -87,6 +87,8 @@ body{
 }
 .video-tag{
   z-index: -1;
+  height: 450px;
+  width: 800px;
 }
 
 /* TEAM STYLES */
@@ -236,6 +238,13 @@ body{
     z-index: -1;
     width: 1500px;
   }
+
+  .video-tag{
+    z-index: -1;
+    height: 250px;
+    width: 320px;
+  }
+  
   .header-inner{
     padding-top: 100px;
   }
