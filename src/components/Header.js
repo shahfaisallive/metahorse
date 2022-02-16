@@ -1,7 +1,6 @@
 import React from 'react';
 import { ReactComponent as HorseLogo } from '../media/logo2.svg'
 import { ReactComponent as MetaHorse } from '../media/title2.svg'
-import { ReactComponent as HeaderText } from '../media/title-text.svg'
 import bgVideo from '../media/black.mp4';
 
 
@@ -25,7 +24,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='col-md-7 header-right d-flex justify-content-center'>
-                    <HeaderText className='header-text2' />
+                    <p className="header-text2 text-center"> World's First Digital Equates Reality Horse NFT and Gamefi on BSC</p>
                 </div>
             </div>
             <div className='row d-flex justify-content-center'>
