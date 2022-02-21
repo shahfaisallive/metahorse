@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as HorseLogo } from '../media/logo2.svg'
 import { ReactComponent as MetaHorse } from '../media/title2.svg'
-import bgVideo from '../media/black.mp4';
+import bgVideo from '../media/bgVideo.mp4';
 
 
 const Header = () => {
