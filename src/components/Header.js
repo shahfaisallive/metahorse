@@ -1,8 +1,8 @@
 import React from 'react';
 import { ReactComponent as HorseLogo } from '../media/logo2.svg'
 import { ReactComponent as MetaHorse } from '../media/title2.svg'
-import bgVideo from '../media/bgVideo.mp4';
-
+import bgVideo from '../media/black.mp4';
+import headerVideo from '../media/bgVideo.mp4'
 
 const Header = () => {
     return (
@@ -28,9 +28,9 @@ const Header = () => {
                 </div>
             </div>
             <div className='row d-flex justify-content-center'>
-                <iframe className='mt-5 video-tag'
-                    src={'https://www.youtube.com/embed/gElfIo6uw4g'} title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-                </iframe>
+                <video className='header-video' autoPlay loop muted>
+                    <source src={headerVideo} type='video/mp4' />
+                </video>
             </div>
 
         </div>
